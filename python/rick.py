@@ -18,5 +18,7 @@ class Rick:
     def up(self) -> None:
         print("down!")
 
-rick = Rick()
-rick.never().gonna().give().you().up()
+
+if __name__ == "__main__":
+    rick = Rick()
+    rick.never().gonna().give().you().up()
