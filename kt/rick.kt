@@ -9,7 +9,7 @@ class Rick {
         return this
      }
 
-    fun let(): Rick {
+    fun give(): Rick {
         print("let ")
         return this
     }
@@ -19,10 +19,10 @@ class Rick {
         return this
     }
 
-    fun down() = println("down!")
+    fun up() = println("down!")
 }
 
 fun main() {
     val rick = Rick()
-    rick.never().gonna().let().you().down()
+    rick.never().gonna().give().you().up()
 }

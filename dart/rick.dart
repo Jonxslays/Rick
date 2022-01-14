@@ -11,7 +11,7 @@ class Rick {
         return this;
     }
 
-    Rick let() {
+    Rick give() {
         stdout.write("let ");
         return this;
     }
@@ -21,10 +21,10 @@ class Rick {
         return this;
     }
 
-    void down() => print("down!");
+    void up() => print("down!");
 }
 
 void main() {
     Rick rick = Rick();
-    rick.never().gonna().let().you().down();
+    rick.never().gonna().give().you().up();
 }
