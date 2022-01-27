@@ -22,9 +22,7 @@ class Rick {
     void up() {
         System.out.print("down!");
     }
-}
 
-class Main {
     public static void main(String[] args) {
         new Rick().never().gonna().give().you().up();
     }
