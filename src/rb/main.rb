@@ -16,7 +16,7 @@ class Rick
         self
     end
     def up()
-        print "down!"
+        puts "down!"
     end
 end
 
