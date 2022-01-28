@@ -20,7 +20,7 @@ class Rick {
     }
 
     void up() {
-        System.out.print("down!");
+        System.out.println("down!");
     }
 
     public static void main(String[] args) {
