@@ -1,33 +1,30 @@
-class Rick {
+{
+    class Rick {
+        never() {
+            process.stdout.write("never ");
+            return this;
+        }
 
-  constructor() {
-    this.message = "";
-  }
+        gonna() {
+            process.stdout.write("gonna ");
+            return this;
+        }
 
-  never() {
-    this.message += "Never ";
-    return this;
-  }
+        give() {
+            process.stdout.write("let ");
+            return this;
+        }
 
-  gonna() {
-    this.message += "gonna ";
-    return this;
-  }
+        you() {
+            process.stdout.write("you ");
+            return this;
+        }
 
-  give() {
-    this.message += "let ";
-    return this;
-  }
+        up() {
+            process.stdout.write("down!\n");
+        }
+    }
 
-  you() {
-    this.message += "you ";
-    return this;
-  }
-
-  up() {
-    console.log(this.message + "down!")
-  }
+    const rick = new Rick();
+    rick.never().gonna().give().you().up();
 }
-
-let rick = new Rick();
-rick.never().gonna().give().you().up()
